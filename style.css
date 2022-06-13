@@ -11,6 +11,8 @@ License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
 :root {
     --red-color: #be0000;
     --yellow-color: #b48200;
@@ -19,4 +21,66 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
     --green-color: #32501e;
     --brown-color: #783200;
     --text-color: #d25a14;
+}
+
+.primary-navigation a {
+    font-family: 'Just Another Hand', cursive;
+    letter-spacing: 0.15rem;
+    font-size: 28px;
+}
+
+.primary-navigation a {
+    font-weight: bold;
+}
+
+header {
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.wp-block-group {
+    border-radius: 1rem;
+}
+
+a, p, li {
+    font-size: 16px;
+}
+
+h2 {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 48px;
+    margin-bottom: 8px !important;
+}
+
+.wp-block-group p {
+    margin-top: 0 !important;
+}
+
+.partners-column {
+    text-align: justify;
+}
+
+.partners-column p {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+    font-size: 14px;
+}
+
+.no-widgets .site-footer {
+    margin-top: calc(2 * var(--global--spacing-vertical));
+}
+
+@media (min-width: 1000px) {
+    header {
+        border-bottom: solid 16px var(--text-color);
+    }
+
+    #content {
+        margin-top: 2rem;
+    }
 }
