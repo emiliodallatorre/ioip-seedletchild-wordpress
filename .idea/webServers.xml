@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dc553c2f-3f69-4704-a4bd-db89c7841bbc" name="integrazione.oltreipregiudizi.it" url="https://integrazione.oltreipregiudizi.it">
+        <fileTransfer accessType="SFTP" host="europeanmigration.eu" port="22" sshConfigId="ce05cde1-cfb4-4287-8e49-6d2e2883ddf5" sshConfig="emiliodallatorre@europeanmigration.eu:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

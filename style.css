@@ -1,0 +1,22 @@
+/*
+Theme Name: Twentytwentyone child theme per integrazione.oltreipregiudizi.it.
+Theme URI: https://it.wordpress.org/themes/twentytwentyone/
+Description: Tema di supporto per integrazione.oltreipregiudizi.it.
+Author: Emilio Dalla Torre
+Textdomain: emiliodallatorre
+Author URI: https://emiliodallatorre.it/
+Template: twentytwentyone
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+:root {
+    --red-color: #be0000;
+    --yellow-color: #b48200;
+    --purple-color: #642896;
+    --blu-color: #1e466e;
+    --green-color: #32501e;
+    --brown-color: #783200;
+    --text-color: #d25a14;
+}
