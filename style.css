@@ -84,3 +84,9 @@ h2 {
         margin-top: 2rem;
     }
 }
+
+@media (max-width: 1000px) {
+    .squared-image {
+        padding: 3rem;
+    }
+}
